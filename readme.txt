@@ -1,6 +1,8 @@
 1、excel的上传模板开发
 
-2、httpServletResponse的属性设置   https://blog.csdn.net/qq_34666857/article/details/104838171
+2、注册事件、加载资源文件
+
+3、httpServletResponse的属性设置   https://blog.csdn.net/qq_34666857/article/details/104838171
 响应消息头名称         说明
 Server             一种标明web服务器软件几版本号的头标
 Content-Type       返回文档时所采用的的MIME类型
@@ -15,7 +17,7 @@ Location           浏览器重新连接到的URL
 Content-Disposition 通过这个报头，可以让浏览器询问用户将响应存储到磁盘上给定名称的文件中  attachment; filename=\"" + fileName + "\"
 Set-Cookie         浏览器记下cookie，推荐使用addCookie
 
-3、常用的MIME类型如下：
+4、常用的MIME类型如下：
 
 　　超文本标记语言文本 .html,.html text/html
 　　普通文本 .txt text/plain
